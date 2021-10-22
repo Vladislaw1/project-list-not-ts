@@ -7,7 +7,7 @@ import CreateTodoPage from "../../page/CreateTodoPage";
 function Routes(props) {
     return (
         <Switch>
-            <Route exact path={"/"} component={TodoPage} />
+            <Route exact path={"/project-list-not-ts"} component={TodoPage} />
             <Route exact path={"/create"} component={CreateTodoPage} />
         </Switch>
     );
