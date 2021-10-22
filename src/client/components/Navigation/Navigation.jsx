@@ -8,7 +8,7 @@ function Navigation(props) {
         <nav className={s.nav}>
             <ul className={s.nav_list}>
                 <li className={s.nav_list_item}>
-                    <Link className={s.nav_list_item_link} to={"/"}>Todos</Link>
+                    <Link className={s.nav_list_item_link} to={"/project-list-not-ts"}>Todos</Link>
                 </li>
                 <li className={s.nav_list_item}>
                     <Link className={s.nav_list_item_link} to={"/create"}>Create Todo</Link>
