@@ -1,0 +1,25 @@
+@import "../shared/styles/base";
+.btn_showmore_div{
+  @include flex(center);
+  margin-top: 40px;
+}
+
+.btn_showmore{
+  background: #282c34;
+  color: white;
+
+  &:hover{
+    color: #282c34;
+    background: white;
+    cursor: pointer;
+  }
+
+  &_disable{
+    background: silver;
+    color: grey;
+    &:hover{
+      background: silver;
+      color: gray;
+    }
+  }
+}

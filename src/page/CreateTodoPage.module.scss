@@ -1,0 +1,5 @@
+@import "../shared/styles/base";
+
+.form_add{
+  @include flex(center)
+}

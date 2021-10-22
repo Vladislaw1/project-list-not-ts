@@ -1,0 +1,8 @@
+@import "../../styles/base";
+
+.header{
+  @include flex(flex-end);
+
+  padding: 20px 150px;
+  background: $header-bg-color;
+}

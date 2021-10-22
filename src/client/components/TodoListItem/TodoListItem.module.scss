@@ -1,0 +1,13 @@
+@import "../../../shared/styles/base";
+
+.todo_list_item{
+  &_caption{
+
+  }
+  &_completed{
+
+  }
+}
+.control_block{
+  @include flex(space-evenly)
+}
